@@ -1,0 +1,17 @@
+{
+  "name": "pragmapartners.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pragmapartners/pragmapartners.github.io.git",
+  "author": "Josh Street <josh@josh.st>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^7.2.6",
+    "postcss-cli": "^4.1.1",
+    "sass": "^1.13.0"
+  },
+  "scripts": {
+    "autoprefixer": "postcss -o assets/css/main.css -u autoprefixer --no-map",
+    "sass": "sass assets/sass/main.scss | npm run autoprefixer"
+  }
+}
