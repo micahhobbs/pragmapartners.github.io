@@ -1,3 +1,13 @@
+.header {
+	background: #fff;
+	text-transform: uppercase;
+	h1 img {
+		width: 196px;
+		height: 44px;
+		object-fit: cover;
+	}
+}
+
 .nav {
 	position: absolute;
 	top: 40px;
