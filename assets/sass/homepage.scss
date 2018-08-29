@@ -63,7 +63,7 @@ ul.services a {
 	text-decoration: none;
 	text-transform: uppercase;
 	&:before {
-		content: "";
+		content:'';
 		display: block;
 		position: relative;
 		width: 100px;
@@ -71,6 +71,33 @@ ul.services a {
 		background: white;
 		border-radius: 100%;
 		margin: 0 auto 1em;
+		background-size: 50%;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+	}
+	&.business-architecture:before {
+		background-image:url(/assets/img/services-icons/business-architecture.png)
+	}
+	&.product-service-design:before {
+		background-image:url(/assets/img/services-icons/product-service-design.png)
+	}
+	&.strategy-planning:before {
+		background-image:url(/assets/img/services-icons/strategy-planning.png)
+	}
+	&.user-centered-research-design:before {
+		background-image:url(/assets/img/services-icons/user-centered-research-design.png)
+	}
+	&.marcomms:before {
+		background-image:url(/assets/img/services-icons/marcomms.png)
+	}
+	&.digital-service:before {
+		background-image:url(/assets/img/services-icons/digital-service.png)
+	}
+	&.content-publishing:before {
+		background-image:url(/assets/img/services-icons/content-publishing.png)
+	}
+	&.support-operations:before {
+		background-image:url(/assets/img/services-icons/support-operations.png)
 	}
 }
 
