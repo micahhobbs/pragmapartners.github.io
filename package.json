@@ -1,19 +1,18 @@
 {
   "name": "pragmapartners.github.io",
   "version": "1.0.0",
+  "description": "Pragma Site",
   "main": "index.js",
-  "repository": "https://github.com/pragmapartners/pragmapartners.github.io.git",
-  "author": "Josh Street <josh@josh.st>",
-  "license": "MIT",
-  "dependencies": {
-    "autoprefixer": "^7.2.6",
-    "onchange": "^3.3.0",
-    "postcss-cli": "^4.1.1",
-    "sass": "^1.13.0"
-  },
   "scripts": {
-    "autoprefixer": "postcss -o assets/css/main.css -u autoprefixer --no-map",
-    "sass": "sass assets/sass/main.scss | npm run autoprefixer",
-    "watch": "onchange 'assets/sass/**.scss' -- npm run sass"
+    "compile:sass" : "node-sass assets/sass/main.scss assets/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micahthobbs/pragmapartners.github.io.git"
+  },
+  "author": "micahthobbs",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
   }
 }

@@ -1,4 +1,4 @@
-Install and watch (otherwise, there's no stylesheet)
+<!-- Install and watch (otherwise, there's no stylesheet)
 
 ```
 yarn install
@@ -11,4 +11,4 @@ Local HTTP server
 python -m SimpleHTTPServer
 ```
 
-Build pipeline to come…
+Build pipeline to come… -->

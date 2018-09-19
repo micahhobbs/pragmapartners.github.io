@@ -9,6 +9,6 @@ validation-report.json
 validation-status.json
 npm-debug.log
 lerna-debug.log
-*.css
 *.css.map
 *.min.js
+_Archive
